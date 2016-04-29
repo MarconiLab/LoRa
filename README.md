@@ -9,6 +9,8 @@ Libelium's LoRa module works in both 868 and 900 MHz ISM bands, which makes it s
 
 The great performance of LoRa in all these 3 features (good sensitivity, low path loss, good obstacle penetration) makes LoRa a disruptive technology enabling really long range links. This is specially important in urban scenarios, with very difficult transmission conditions. To sum up, LoRa can get long ranges in Smart Cities deployments, so it reduces dramatically the size of the backbone network (repeaters, gateways or concentrators).
 
+![alt tag](https://www.cooking-hacks.com/media/cooking/images/documentation/tutorial_SX1272/sx1272_module_small.png)
+
 ## Test
 One radio sending messages every second with a ID number generated froma  random number, Sequence and Lat&Long from GPS
 Other radio Receive message and transmit an ACK. This radio is connected to a Rpi that logs data and send it to Ubidots.
